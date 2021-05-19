@@ -25,7 +25,7 @@ public class LaunchActivity extends AppCompatActivity {
             startActivity(intent);
         }else{
 
-            Intent intent = new Intent(this, QuejaActivity.class);
+            Intent intent = new Intent(this, LoginActivity.class);
             startActivity(intent);
         }
     }
