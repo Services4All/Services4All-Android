@@ -18,9 +18,15 @@
             android:background="?attr/colorPrimary"
             app:popupTheme="@style/Theme.SecureAPI.PopupOverlay" />
 
-    </com.google.android.material.appbar.AppBarLayout>
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Categorías"
+            android:textSize="30sp" />
 
-    <include layout="@layout/content_main" />
+
+    </com.google.android.material.appbar.AppBarLayout>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fab"
@@ -29,5 +35,51 @@
         android:layout_gravity="bottom|end"
         android:layout_margin="@dimen/fab_margin"
         app:srcCompat="@android:drawable/ic_dialog_email" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="wrap_content"
+        android:layout_height="333dp"
+        android:src="@drawable/gettyimages_508481761_5760b7105f9b58f22e360f07" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="match_parent"
+        android:layout_height="861dp"
+        android:src="@drawable/la_carpinteria_en_una_reforma" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="wrap_content"
+        android:layout_height="1266dp"
+        android:src="@drawable/empresas_de_servicios" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="wrap_content"
+        android:layout_height="514dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Construcción"
+        android:textSize="36sp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="wrap_content"
+        android:layout_height="995dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Carpinteria"
+        android:textSize="36sp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="wrap_content"
+        android:layout_height="1395dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Mensajería"
+        android:textSize="36sp" />
+
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
